@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#283149">
+  <title>Drum Kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1 id="title">Drum <span aria-hidden="true">🥁</span> Kit</h1>
+    <p class="instructions">Tap a drum or press its matching key to play.</p>
+    <section class="set" aria-label="Interactive drum kit">
+      <button class="w drum" type="button" data-key="w" aria-label="Tom drum 1, key W">w</button>
+      <button class="a drum" type="button" data-key="a" aria-label="Tom drum 2, key A">a</button>
+      <button class="s drum" type="button" data-key="s" aria-label="Tom drum 3, key S">s</button>
+      <button class="d drum" type="button" data-key="d" aria-label="Tom drum 4, key D">d</button>
+      <button class="j drum" type="button" data-key="j" aria-label="Snare drum, key J">j</button>
+      <button class="k drum" type="button" data-key="k" aria-label="Crash cymbal, key K">k</button>
+      <button class="l drum" type="button" data-key="l" aria-label="Bass drum, key L">l</button>
+    </section>
+    <p id="status" class="status" aria-live="polite">Ready when you are.</p>
+  </main>
+  <footer>Make a beat. Have fun!</footer>
+  <script src="index.js"></script>
+</body>
+</html>
